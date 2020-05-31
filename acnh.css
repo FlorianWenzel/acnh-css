@@ -1,20 +1,28 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 * {
-  cursor: url('https://github.com/FlorianWenzel/acnh-css/raw/master/cursor/cursor.png'), auto!important;
+  cursor: url('https://github.com/FlorianWenzel/acnh-
+  css/raw/master/cursor/cursor.png'), auto!important;
 }
 .acnh-text{
   font-family: Nunito;
+}
+.acnh-btn{
+  line-height: 22px;
+}
+.acnh-label{
+  line-height: 18px;
 }
 .acnh-btn, .acnh-label{
   color: white;
   background-color: rgb(29, 182, 175);
   padding: .5rem;
-  line-height: 1rem;
   border: rgb(29, 182, 175) solid .3rem;;
   border-radius: 3rem;
   text-align: center;
   font-family: Nunito,Helvetica Rounded,Arial,sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   cursor: url(cursor/cursor.png), auto;
 }
 .acnh-btn:focus, .acnh-btn:hover, .acnh-btn-focus {
@@ -27,9 +35,9 @@
     rgb(21, 151, 139) 20px,
     rgb(21, 151, 139) 40px
   );
-	background-size:56px 56px;
-	background-position-x:0%;
-	-webkit-animation:'slide' 200s infinite linear forwards;
+  background-size:56px 56px;
+  background-position-x:0%;
+  -webkit-animation:'slide' 200s infinite linear forwards;
 }
 .acnh-btn-no-focus:focus, .acnh-btn-no-focus:hover {
   outline: none;
@@ -53,9 +61,9 @@
 .acnh-icon{
   padding: .1rem;
   margin-right: .1rem;
-  height: 1rem;
-  line-height: 1rem;
-  width: 1rem;
+  height:16px;
+  line-height: 16px;
+  width: 16px;
   display: inline-block;
   font-size: 1rem;
   border-radius: 50%;
@@ -73,10 +81,10 @@
   color: rgb(236,153, 158);
 }
 @-webkit-keyframes slide {
-	0%{
-		background-position-x: 0%;
-	}
-	100% {
-		background-position-x: 10000%;
-	}
+  0%{
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 10000%;
+  }
 }
